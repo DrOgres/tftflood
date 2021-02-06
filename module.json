@@ -1,0 +1,20 @@
+{
+	"name": "tftflood",
+	"title": "Things From the Flood",
+	"author": "Dr Ogres",
+	"description": "A Things from the Flood look for the Tales from the Loop System.",
+	"version": "0.0.1",
+	"minimumCoreVersion": "0.6.5",
+	"compatibleCoreVersion": "1.0.0",
+	"styles": ["/css/tftloop.css"],
+	"url": "https://github.com/DrOgres/tftflood",
+	"manifest": "https://github.com/DrOgres/tftflood/module.json",
+	"download": "https://github.com/DrOgres/tftflood/archive/main.zip",
+	"dependencies": [
+		{
+			"name": "tftloop",
+			"type": "system"
+		}
+
+	]
+}
