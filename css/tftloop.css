@@ -3,29 +3,6 @@
 /       Colors
 *****************************/
 /******************************
-/        Fonts
-******************************/
-@font-face {
-  font-family: Avant;
-  src: url(fonts/AvantGuard.ttf);
-}
-@font-face {
-  font-family: AvantBold;
-  src: url(fonts/AvantBold.otf);
-}
-@font-face {
-  font-family: SabonItalic;
-  src: url(fonts/Sabon_Italic.ttf);
-}
-@font-face {
-  font-family: SabonRoman;
-  src: url(fonts/Sabon_Roman.ttf);
-}
-@font-face {
-  font-family: Trixie;
-  src: url(fonts/Trixie-Text.otf);
-}
-/******************************
 /        Foundry overrides
 ******************************/
 .editor-edit {
