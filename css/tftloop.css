@@ -265,6 +265,9 @@ select:focus {
   color: #96274f;
 }
 .bug {
+  background: url(../img/krafta_logo_bw_sm.png);
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 .bug img {
@@ -312,12 +315,15 @@ select:focus {
   font-weight: 700;
 }
 .window-content .dialog-content {
-  background: url(img/chat_background.jpg);
+  background: url(../img/chat_background.jpg);
   padding: 5px;
   box-shadow: 2px 2px #7f7f7f;
   margin-bottom: 3px;
 }
 .window-content .dialog-content .bug {
+  background: url(../img/krafta_logo_bw_sm.png);
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 .window-content .dialog-content .bug img {
@@ -752,7 +758,7 @@ select:focus {
   max-width: 10%;
   font-family: AvantBold;
   color: white;
-  background-image: url('img/grunge.png');
+  background-image: url('../img/grunge.png');
   background-color: #96274f;
   object-fit: cover;
   height: 100%;
