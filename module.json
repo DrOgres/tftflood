@@ -10,11 +10,5 @@
 	"url": "https://github.com/DrOgres/tftflood",
 	"manifest": "https://raw.githubusercontent.com/DrOgres/tftflood/main/module.json",
 	"download": "https://github.com/DrOgres/tftflood/archive/main.zip",
-	"dependencies": [
-		{
-			"name": "tftloop",
-			"type": "system"
-		}
-
-	]
+	"system": "tftloop"
 }
