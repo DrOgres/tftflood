@@ -10,5 +10,5 @@
 	"url": "https://github.com/DrOgres/tftflood",
 	"manifest": "https://raw.githubusercontent.com/DrOgres/tftflood/main/module.json",
 	"download": "https://github.com/DrOgres/tftflood/archive/main.zip",
-	"system": "tftloop"
+	"systems": "tftloop"
 }
