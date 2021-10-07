@@ -375,6 +375,7 @@ select:focus {
   font-size: 1.2em;
   font-style: normal;
   justify-content: space-between;
+  line-height: 1em;
 }
 .section-header .col-head {
   font-size: 0.75em;
@@ -410,7 +411,7 @@ select:focus {
 .main {
   display: table;
   margin-left: 5px;
-  min-width: 70%;
+  min-width: 100%;
   justify-content: flex-start;
 }
 .main #hideout {
@@ -418,7 +419,7 @@ select:focus {
   resize: none;
   height: 85%;
 }
-.main .notes-group {
+.notes-group {
   height: fit-content;
   background: #dbdfe7;
 }
@@ -459,7 +460,7 @@ select:focus {
   background: #dbdfe7;
 }
 .main .scars .section-header {
-  max-height: fit-content;
+  max-height: 36px;
 }
 .main .scars .info-item {
   font-size: 0.85em;
@@ -616,6 +617,15 @@ select:focus {
   justify-content: space-between;
   align-content: space-between;
 }
+
+.main .info-item.even{
+	background: #b0b8c8;
+}
+
+.main .info-item.odd{
+	background: #dbdfe7;
+}
+
 .main .info-item .item-name {
   flex: 0 0 60%;
 }
