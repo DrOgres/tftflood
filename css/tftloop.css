@@ -60,6 +60,9 @@ blockquote hr {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
+.section-header {
+  max-height: fit-content;
+}
 section.secret {
   font-family: SabonRoman;
   font-size: 1.1em;
@@ -410,7 +413,7 @@ select:focus {
 .main {
   display: table;
   margin-left: 5px;
-  min-width: 70%;
+  min-width: 99%;
   justify-content: flex-start;
 }
 .main #hideout {
