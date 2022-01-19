@@ -272,6 +272,13 @@
     min-width: 99%;
     justify-content: flex-start;
 
+    .info-item.even{
+        background-color: @iconic-item-color;
+    }
+    .info-item.odd{
+        background-color: @field-color;
+    }
+
     #hideout{
         border:none;
         resize: none;
@@ -279,7 +286,7 @@
     }
     .notes-group{
         height: fit-content;
-        background: @field-color;
+        background-color: @field-color;
     }
 
     .items{
@@ -325,8 +332,11 @@
         .section-header{
             
             
-            max-height: fit-content;
+            max-height: 36px;
         }
+
+       
+        
 
         .info-item{
             font-size: .85em;
@@ -335,7 +345,7 @@
             align-content: space-between;
             justify-content: space-between;
 
-            
+           
             p{
                 margin: 0px;
             }

@@ -22,7 +22,7 @@ button:hover {
 a:hover {
   box-shadow: none;
   text-shadow: none;
-  color: #96274f;
+  color: #dbdfe7;
 }
 .fa-edit:hover {
   text-shadow: none;
@@ -416,6 +416,12 @@ select:focus {
   min-width: 99%;
   justify-content: flex-start;
 }
+.main .info-item.even {
+  background-color: #b0b8c8;
+}
+.main .info-item.odd {
+  background-color: #dbdfe7;
+}
 .main #hideout {
   border: none;
   resize: none;
@@ -423,7 +429,7 @@ select:focus {
 }
 .main .notes-group {
   height: fit-content;
-  background: #dbdfe7;
+  background-color: #dbdfe7;
 }
 .main .items {
   min-height: 0px;
@@ -462,7 +468,7 @@ select:focus {
   background: #dbdfe7;
 }
 .main .scars .section-header {
-  max-height: fit-content;
+  max-height: 36px;
 }
 .main .scars .info-item {
   font-size: 0.85em;
