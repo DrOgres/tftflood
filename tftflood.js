@@ -18,14 +18,14 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	dice3d.addDicePreset({
 		type: "d6",
 		labels: [
-			"moodules/tftflood/img/dice/face1.png",
-			"systems/tftflood/img/dice/face2.png",
-			"systems/tftflood/img/dice/face3.png",
-			"systems/tftflood/img/dice/face4.png",
-			"systems/tftflood/img/dice/face5.png",
-			"systems/tftflood/img/dice/face6.png"
+			"modules/tftflood/img/dice/face1.png",
+			"modules/tftflood/img/dice/face2.png",
+			"modules/tftflood/img/dice/face3.png",
+			"modules/tftflood/img/dice/face4.png",
+			"modules/tftflood/img/dice/face5.png",
+			"modules/tftflood/img/dice/face6.png"
 		],
 		colorset: "flood-purple",
-		system: "tftloop"
+		system: "tftflood"
 	});
 });
