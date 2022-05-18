@@ -3,6 +3,9 @@
 <p>This module for Foundry VTT is a simple module to update the look and feel of the Tales from the Loop system (available in the Foundry Client) to align with the Things from the Flood game book. All the character types and such are in the Tales from the Loop system on the Teen character sheet.  </p>
 
 
+<h3> version 1.0.4 </h3>
+* added Dice so Nice dice for the flood dice!
+
 <h3> version 1.0.3 </h3>
 
 * v9 release update.  

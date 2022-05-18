@@ -3,10 +3,13 @@
 	"title": "Things From the Flood",
 	"author": "Dr Ogres",
 	"description": "A Things from the Flood look for the Tales from the Loop System.",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"minimumCoreVersion": "0.6.5",
 	"compatibleCoreVersion": "9",
 	"styles": ["/css/tftloop.css"],
+	"esmodules": [
+        "tftflood.js"
+    ],
 	"url": "https://github.com/DrOgres/tftflood",
 	"manifest": "https://raw.githubusercontent.com/DrOgres/tftflood/main/module.json",
 	"download": "https://github.com/DrOgres/tftflood/archive/main.zip",
