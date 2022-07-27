@@ -67,6 +67,19 @@ section.secret {
   font-family: SabonRoman;
   font-size: 1.1em;
 }
+option,
+optgroup {
+  font-family: Avant, sans-serif;
+  background: #dbdfe7;
+}
+option :hover,
+optgroup :hover {
+  background: #d9bec3;
+}
+option :focus,
+optgroup :focus {
+  background: #d9bec3;
+}
 #chat-form textarea {
   background: url(../img/chat_background.jpg);
 }
