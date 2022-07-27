@@ -9,7 +9,7 @@
   box-shadow: 2px 2px #7f7f7f;
 }
 #context-menu li.context-item:hover {
-  color: #96274f;
+  color: hsl(338, 59%, 37%);
   text-shadow: none;
 }
 button:hover {
@@ -32,14 +32,14 @@ textarea {
   height: 100%;
 }
 textarea:focus {
-  outline: 2px solid #96274f;
+  outline: 2px solid hsl(338, 59%, 37%);
   box-shadow: 0 0 5px #7b899c;
 }
 h1,
 h2 {
   font-family: AvantBold, sans-serif;
   font-weight: 700;
-  border-color: #96274f;
+  border-color: hsl(338, 59%, 37%);
 }
 h3,
 h4,
@@ -88,35 +88,38 @@ button {
 }
 .tabs .item.active {
   text-shadow: none;
-  color: #96274f;
-  border-bottom: 3px solid #96274f;
+  color: hsl(338, 59%, 37%);
+  border-bottom: 3px solid hsl(338, 59%, 37%);
 }
 .sidebar-tab .directory-header .header-search input {
   background: white;
 }
 select:focus {
   box-shadow: none;
-  border: 1px solid #96274f;
+  border: 1px solid hsl(338, 59%, 37%);
 }
-.editor-content img {
+.journal-sheet form {
+  background: white;
+}
+.journal-entry-pages img {
   border: none;
 }
-.editor-content table {
+.journal-entry-pages table {
   background: #dbdfe7;
   border: none;
   font-family: AvantBold;
 }
-.editor-content table th {
+.journal-entry-pages table th {
   padding-left: 3px;
   background: black;
   color: white;
   text-align: left;
   font-family: AvantBold;
 }
-.editor-content table tr:nth-child(odd) {
+.journal-entry-pages table tr:nth-child(odd) {
   background: #b0b8c8;
 }
-.editor-content .chapter-header {
+.journal-entry-pages .chapter-header {
   font-family: AvantBold;
   font-weight: 900;
   color: #7b899c;
@@ -124,77 +127,77 @@ select:focus {
   font-style: bold;
   padding-left: 5px;
 }
-.editor-content .lore-text {
+.journal-entry-pages .lore-text {
   font-family: SabonItalic;
   padding-left: 5px;
   text-indent: 0px;
 }
-.editor-content .us-text {
-  color: #96274f;
+.journal-entry-pages .us-text {
+  color: hsl(338, 59%, 37%);
   font-weight: 300;
 }
-.editor-content .example-text {
+.journal-entry-pages .example-text {
   font-size: 0.9em;
   padding-left: 8px;
-  border-left: dotted 2px #96274f;
+  border-left: dotted 2px hsl(338, 59%, 37%);
   max-width: 90%;
   background: #dbdfe7;
   break-inside: avoid;
 }
-.editor-content .example-text p {
+.journal-entry-pages .example-text p {
   text-indent: 0px;
 }
-.editor-content .major-heading {
+.journal-entry-pages .major-heading {
   display: grid;
   grid-template-columns: 140px auto;
   justify-items: stretch;
 }
-.editor-content .chap-number {
+.journal-entry-pages .chap-number {
   font-family: AvantBold;
   color: white;
   background-image: url('../img/grunge.png');
   background-color: #fbba1c;
   object-fit: cover;
 }
-.editor-content .grunge {
+.journal-entry-pages .grunge {
   position: absolute;
   width: 140px;
   z-index: 7;
 }
-.editor-content .grunge img {
+.journal-entry-pages .grunge img {
   border: none;
   object-fit: cover;
 }
-.editor-content .two-col {
+.journal-entry-pages .two-col {
   column-count: 2;
   column-gap: 3em;
   margin-top: 10px;
   margin-right: 10px;
   text-align: justify;
 }
-.editor-content h5 {
+.journal-entry-pages h5 {
   font-size: 1.2em;
   font-family: AvantBold, Arial, Helvetica, sans-serif;
   font-weight: 600;
-  color: #96274f;
+  color: hsl(338, 59%, 37%);
   margin-block-start: 1em;
   margin-block-end: 0.5em;
   font-style: italic;
 }
-.editor-content h1 {
-  font-size: 3.5em;
+.journal-entry-pages h1 {
+  font-size: 1.5em;
   border-color: black;
 }
-.editor-content h2 {
+.journal-entry-pages h2 {
   font-size: 1.5em;
   border: none;
   text-align: left;
 }
-.editor-content h3 {
+.journal-entry-pages h3 {
   font-family: AvantBold;
   text-align: left;
 }
-.editor-content p {
+.journal-entry-pages p {
   text-indent: 25px;
 }
 .black-bar {
@@ -210,7 +213,7 @@ select:focus {
   max-height: 120px;
 }
 .item-bonus:focus {
-  outline: 2px solid #96274f;
+  outline: 2px solid hsl(338, 59%, 37%);
   box-shadow: 0 0 5px #7b899c !important;
 }
 .dice-result .dice-formula,
@@ -227,7 +230,7 @@ select:focus {
   padding-right: 7px;
   justify-content: flex-start;
   align-items: flex-end;
-  border-color: #96274f;
+  border-color: hsl(338, 59%, 37%);
   border-bottom: 1px solid;
 }
 .chat-header .portrait {
@@ -242,7 +245,7 @@ select:focus {
   text-align: right;
   align-self: flex-end;
   border: none;
-  color: #96274f;
+  color: hsl(338, 59%, 37%);
 }
 .bug {
   background: url(../img/krafta_logo_bw_sm.png);
@@ -258,7 +261,7 @@ select:focus {
   text-align: center;
 }
 .reroll-info button {
-  background-color: #96274f;
+  background-color: hsl(338, 59%, 37%);
   border: none;
   text-align: center;
   cursor: pointer;
@@ -329,7 +332,7 @@ select:focus {
   padding-left: 80px;
 }
 .window-content .dialog-content .pool-details .penalty {
-  color: #96274f;
+  color: hsl(338, 59%, 37%);
 }
 .window-content .dialog-content .pool-details .divider {
   margin-top: 2px;
@@ -366,7 +369,7 @@ select:focus {
 }
 .window-content .dialog-content .pool-details .bonus-dice input:focus {
   box-shadow: none;
-  border-bottom: 1px solid #96274f;
+  border-bottom: 1px solid hsl(338, 59%, 37%);
 }
 .section-header {
   background-color: black;
@@ -391,7 +394,7 @@ select:focus {
 }
 .editor {
   height: auto;
-  min-height: 30px;
+  min-height: 35px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -410,6 +413,10 @@ select:focus {
   height: 85%;
   overflow-y: auto;
 }
+.notes-group {
+  height: fit-content;
+  background-color: #dbdfe7;
+}
 .main {
   display: table;
   margin-left: 5px;
@@ -426,10 +433,6 @@ select:focus {
   border: none;
   resize: none;
   height: 85%;
-}
-.main .notes-group {
-  height: fit-content;
-  background-color: #dbdfe7;
 }
 .main .items {
   min-height: 0px;
@@ -589,7 +592,7 @@ select:focus {
   font-size: 1.2em;
 }
 .main .info-list .iconic-item input[type="text"]:focus {
-  box-shadow: 0 0 5px #96274f;
+  box-shadow: 0 0 5px hsl(338, 59%, 37%);
 }
 .main .friction {
   list-style: none;
@@ -612,7 +615,7 @@ select:focus {
   border: none;
 }
 .main .friction input[type="text"]:focus {
-  box-shadow: 0 0 5px #96274f;
+  box-shadow: 0 0 5px hsl(338, 59%, 37%);
 }
 .main .info-item {
   list-style: none;
@@ -654,7 +657,7 @@ select:focus {
   border: none;
 }
 .main .info-item input[type="text"]:focus {
-  box-shadow: 0 0 5px #96274f;
+  box-shadow: 0 0 5px hsl(338, 59%, 37%);
 }
 .main .info-item img {
   border: none;
@@ -718,7 +721,7 @@ select:focus {
   height: 20px;
 }
 .item-sheet .us-text {
-  color: #96274f;
+  color: hsl(338, 59%, 37%);
   font-weight: 300;
 }
 .item-sheet h1.charname {
@@ -734,7 +737,7 @@ select:focus {
   height: 35px;
 }
 .item-sheet h1.charname input:focus {
-  outline: 2px solid #96274f;
+  outline: 2px solid hsl(338, 59%, 37%);
   box-shadow: none;
 }
 .item-sheet h1.charname input {
@@ -746,7 +749,7 @@ select:focus {
   font-family: AvantBold;
   color: white;
   background-image: url('../img/grunge.png');
-  background-color: #96274f;
+  background-color: hsl(338, 59%, 37%);
   object-fit: cover;
   height: 100%;
 }
@@ -781,7 +784,7 @@ select:focus {
   top: 43px;
   right: 12px;
   width: 128px;
-  border: 1px solid #96274f;
+  border: 1px solid hsl(338, 59%, 37%);
   padding: 0px;
 }
 .item-sheet .item-info img {
@@ -832,7 +835,7 @@ select:focus {
   box-shadow: 2px 2px #7f7f7f;
 }
 .sidebar .name-box h1.charname input:focus {
-  outline: 2px solid #96274f;
+  outline: 2px solid hsl(338, 59%, 37%);
   box-shadow: none;
 }
 .sidebar .name-box h1.charname input {
