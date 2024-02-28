@@ -21,10 +21,11 @@
 	"manifest": "https://raw.githubusercontent.com/DrOgres/tftflood/main/module.json",
 	"download": "https://github.com/DrOgres/tftflood/archive/main.zip",
 	"relationships": {
-	"systems": {
+	"systems": [{
+
 		"id": "tftloop",
 		"type": "system"
-	}
+	}]
 }
 }
 
