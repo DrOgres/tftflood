@@ -2,6 +2,21 @@
 /
 /       Colors
 *****************************/
+body{
+--footer-color: #7b899c;
+--highlight: #962750;
+--section-head-color: #ae7a85;
+--section-item-color: #d9bec3;
+--field-color: #dbdfe7;
+--iconic-item-color: #b0b8c8;
+--black: black;
+--background: white;
+--white: white;
+--transparent: #ffffff00;
+--drop-shadow-color: #7f7f7f;
+--button-color: #F0F8FF;
+}
+
 /******************************
 /        Foundry overrides
 ******************************/
@@ -84,12 +99,19 @@ section.secret {
   color: white;
 }
 button {
-  background: white;
+  background-color: var(--button-color);
+  color: var(--highlight);
+  padding: 2px;
 }
 .tabs .item.active {
   text-shadow: none;
   color: #96274f;
   border-bottom: 3px solid #96274f;
+}
+
+.tabs.vertical.scrollable{
+  background-color: var(--background);
+  color: var(--black);
 }
 .sidebar-tab .directory-header .header-search input {
   background: white;
@@ -410,8 +432,26 @@ select:focus {
   height: 85%;
   overflow-y: auto;
 }
-.main {
+
+.categories {
+  background-color: var(--field-color);
+  color: var(--black);
+  padding: 3px
+}
+
+.categories label{
+  color: var(--black);
+}
+
+
+.categories .hint {
+  color: var(--highlight);
+}
+
+.tab.main {
   display: table;
+  /* background-color: var(--field-color);
+  color: var(--highlight); */
   margin-left: 5px;
   min-width: 99%;
   justify-content: flex-start;
