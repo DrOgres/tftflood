@@ -8,12 +8,10 @@
 		}
 	],
 	"description": "A Things from the Flood skin for the Tales from the Loop System.",
-	"version": "2.0.0",
-	"minimumCoreVersion": "10",
-	"compatibleCoreVersion": "12",
+	"version": "3.0.0",
 	"compatibility": {
-		"minimum": "10",
-		"verified": "12.324"
+		"minimum": "13",
+		"verified": "13.342"
 	  },
 	"styles": ["/css/tftloop.css"],
 	"esmodules": [],
