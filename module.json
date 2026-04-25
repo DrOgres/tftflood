@@ -2,7 +2,7 @@
 	"title": "Things From the Flood",
 	"description": "A Things from the Flood skin for the Tales from the Loop System.",
 	"url": "https://github.com/DrOgres/tftflood",
-	"version": "3.0.1",
+	"version": "4.0.1",
 	"authors": [
 		{
 		"name": "DrOgres",
@@ -16,15 +16,18 @@
 	"id": "tftflood",
 	"compatibility": {
 		"minimum": "13",
-		"verified": "13.342",
-		"maximum": "13"
+		"verified": "14.360",
+		"maximum": "14"
 	  },
 	"relationships": {
-	"systems": [{
-
-		"id": "tftloop",
-		"type": "system"
-	}]
-	}	
+		"systems": [{
+			"id": "tftloop",
+			"type": "system",
+			"compatibility": {
+				"maximum": "4.9.9",
+				"verified": "4.0.1"
+			}
+		}]
+	}
 }
 
